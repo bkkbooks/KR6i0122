@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6i0122/v1
+canonical_location: https://kanripo.org/bkk/KR6i0122/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 阿難問事佛吉凶經
+  identifiers:
+    alt_id:
+    - T14n0492b
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0492b.xml
+    old_id: T14n0492b
+  edition:
+    short: bkk
+editions:
+- short: 宮
+  label: 宮
+  source_xml_id: wit1
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0122_000.yaml, hash: 'sha256:00282896ba8120d3c7603d272fb2efbfa76b44ae788ad30aa610a49523b84e95'}
+  - {seq: 1, filename: KR6i0122_001.yaml, hash: 'sha256:5518d551d1a210915d88c0338dea60d2ada5665fd464726173cd45baf7281f63'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0122_001.markers.yaml, hash: 'sha256:d6e7b05fca6c0cf2f797ae5d72cb4cb45cab63fd59ea575561f1c28a2094b823'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0122_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2440
+  label: 阿難問事佛吉凶經
+  type: juan
+  level: 1
+hash: sha256:b8eca1d9fbce9b6619e4114c289920e7f0cba7c9d3b49c853b1c576a67cc586d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

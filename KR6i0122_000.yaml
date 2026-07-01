@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0122/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 阿難問事佛吉凶經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0492b.xml
+    old_id: T14n0492b
+hash: sha256:00282896ba8120d3c7603d272fb2efbfa76b44ae788ad30aa610a49523b84e95
