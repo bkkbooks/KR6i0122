@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0122/v1
 canonical_location: https://kanripo.org/bkk/KR6i0122/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 阿難問事佛吉凶經
   identifiers:
@@ -28,10 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0122_000.yaml, hash: 'sha256:00282896ba8120d3c7603d272fb2efbfa76b44ae788ad30aa610a49523b84e95'}
-  - {seq: 1, filename: KR6i0122_001.yaml, hash: 'sha256:79423e08a9964e0b1208e6be1b8c27e3eca20f18998736544b4d7860c2647e86'}
+  - {seq: 1, filename: KR6i0122_001.yaml, hash: 'sha256:b77e89325f7ac94ea41ce8203bd450afa8895e5484b00d11e0d326e04d8e8707'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0122_000.markers.yaml, hash: 'sha256:e492803f17f793ece01f0ae7c37f6667ad62678bd27268738f4e6891f4cb19a4'}
-  - {seq: 1, role: markers, filename: assets/KR6i0122_001.markers.yaml, hash: 'sha256:c72ae75438066a0dea514ab31f960cc45a683b9b21ea5e5819eb801db76d72ef'}
+  - {seq: 1, role: markers, filename: assets/KR6i0122_001.markers.yaml, hash: 'sha256:9991dfd18d2103d4809d238b881bfe97f7ea35ebed02b41a434c1e7f03289eb0'}
 table_of_contents:
 - ref:
     seq: 1
@@ -43,4 +43,7 @@ table_of_contents:
   label: 阿難問事佛吉凶經
   type: juan
   level: 1
-hash: sha256:fd6e21420840600f60f1f1d81266bd2aa4900af255f8059bce1332aea1dcc82d
+hash: sha256:b4fcccbc4ee29a9e401d68e9bd6f96ac1d7bc15bac99cd2757fc493e74ca5e83
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
